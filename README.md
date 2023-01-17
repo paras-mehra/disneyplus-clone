@@ -1,7 +1,5 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 LIVE DEMO : https://disneyplus-clone-69715.web.app/
 
 ## Available Scripts
