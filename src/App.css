@@ -1,38 +1,95 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-weight: 100 !important;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  /* scroll-snap-align: start;
+  scroll-snap-type: Y mandatory; */
+  position: relative;
+}
+
+body {
+  color: #fff !important;
+  background: #040714 !important;
+}
+
+.btn-theme-disney {
+  color: #fff;
+  padding: 0.5rem 3rem;
+  font-size: 17px;
+  font-weight: 700 !important;
   text-align: center;
+  margin-top: 2vh;
+  border-radius: 4px;
+  display: inline-block;
+  text-transform: uppercase;
+  background-color: #0063e5;
+  border: 1px solid transparent;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn-theme-disney:hover {
+  background: #0099ff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media screen and (min-width: 550px) and (max-width: 767px) {
+  .btn-theme-disney {
+    padding: 1rem 2rem;
+    font-size: 16px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (min-width: 375px) and (max-width: 550px) {
+  .btn-theme-disney {
+    padding: 1rem 1.7rem;
+    font-size: 16px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media screen and (min-width: 280px) and (max-width: 375px) {
+  .btn-theme-disney {
+    padding: 0.5rem 1.5rem;
+    font-size: 10px;
+  }
+}
+
+/* ----- Titles of disney plus ------ */
+
+.disney-titles {
+  font-size: 2.3rem;
+  font-weight: 500 !important;
+  line-height: 2.5rem;
+}
+
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+  .disney-titles {
+    font-size: 1.8rem;
+    line-height: 2rem;
+  }
+}
+
+@media screen and (min-width: 550px) and (max-width: 991px) {
+  .disney-titles {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 550px) {
+  .disney-titles {
+    font-size: 1.3rem;
+    line-height: 1.7rem;
+  }
+}
+
+@media screen and (min-width: 280px) and (max-width: 375px) {
+  .disney-titles {
+    font-size: 1.1rem;
+    line-height: 1.3rem;
   }
 }
